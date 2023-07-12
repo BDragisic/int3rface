@@ -3,12 +3,12 @@ A script to enumerate subdomains and detect if any of them host a login portal t
 
 ## Prerequisites
 
+* PostgreSQL
+    * MacOS - ```brew install postgresql@14```
+    * Windows - https://www.postgresql.org/download
 
-* MACOS
-    * ```brew install postgresql@14```
-* WINDOWS
-    * https://www.postgresql.org/download
-* pip3 install -r requirements.txt
+* Pip Modules
+    * pip3 install -r requirements.txt
 
 ## Usage
 
@@ -24,8 +24,6 @@ python3 int3rface.py -h
 * ```-s``` used to take screenshots of all matches
 * ```-c``` will crawl all links present on each subdomain to check for login pages
 
-## Coming soon
 
-* Pass in a list of domains to check
 
 
